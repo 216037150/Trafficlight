@@ -45,3 +45,24 @@ body {
 .traffic-light-yellow {
     background-color: orange;
 }
+@media(max-width: 850px) {
+    body{
+        margin: 2px;
+    }
+    .app {
+        width: 100%;            /* Adjust the app container width */
+        margin: 2px auto;       /* Center it */
+        padding: 0;   
+        /* margin: 2px;  */
+        height: 98%;  
+        background-color: rgb(125, 168, 201);  
+        border: black solid 0.5px;     /* Remove negative padding */
+    }
+
+    .traffic-light-red, .traffic-light-yellow, .traffic-light-green {
+        height: 150px;           
+        width: 150px;           
+        margin: 5px;           
+        padding: 0;             
+    }
+}
