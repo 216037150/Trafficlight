@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 214, 214);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.traffic-light-green, .traffic-light-red, .traffic-light-yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 2px 0;
+    transition: opacity 0.5s ease;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.traffic-light-green {
+    background-color: green;
+}
+
+.traffic-light-red {
+    background-color: red;
+}
+
+.traffic-light-yellow {
+    background-color: orange;
+}
