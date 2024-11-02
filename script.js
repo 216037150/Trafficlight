@@ -45,4 +45,4 @@ function changeColor() {
 }
 
 // Change color every 5 seconds using setInterval
-setInterval(changeColor, 5000);
+setInterval(changeColor, 3000);
